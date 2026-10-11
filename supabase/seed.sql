@@ -1,0 +1,9 @@
+-- seed.sql
+-- Runs after `supabase db reset`. There is no static seed data for SiteLedger:
+-- every business row is owned by a user, and the default expense categories
+-- (Materials, Labour, Transport, Equipment, Permits, Other) are seeded per
+-- account by the on_auth_user_created_seed_categories trigger in
+-- migrations/003_categories_and_suppliers.sql when a user signs up.
+--
+-- The app also seeds the same defaults locally on first sign-in; both paths are
+-- idempotent by (owner_id, name), so they cannot duplicate rows.

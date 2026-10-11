@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Hard-hat over a ledger emblem: foreground of the adaptive launcher icon. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- ledger sheet -->
+    <path
+        android:fillColor="#F5A623"
+        android:pathData="M34,40 h40 a4,4 0 0 1 4,4 v26 a4,4 0 0 1 -4,4 H34 a4,4 0 0 1 -4,-4 V44 a4,4 0 0 1 4,-4 z" />
+    <!-- ledger lines -->
+    <path
+        android:fillColor="#1F3A5F"
+        android:pathData="M37,49 h18 v4 h-18 z M37,57 h30 v4 h-30 z M37,65 h24 v4 h-24 z" />
+    <!-- hard hat crown -->
+    <path
+        android:fillColor="#F5A623"
+        android:pathData="M54,24 c-9.4,0 -16,6.8 -16,15 v6 h32 v-6 c0,-8.2 -6.6,-15 -16,-15 z" />
+    <!-- hat brim -->
+    <path
+        android:fillColor="#F5A623"
+        android:pathData="M28,44 h52 a3,3 0 0 1 0,6 H28 a3,3 0 0 1 0,-6 z" />
+</vector>
